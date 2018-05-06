@@ -1,0 +1,102 @@
+#catalog {                              /*子导航栏位置和样式*/
+    position: relative;
+    top: 55px;
+    width:100%;
+    height: 50px;
+    background-color:  #c3dfe8;
+}
+#catalog #ntr{
+    width: 1300px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    position: relative;
+    list-style: none;
+}
+#catalog #ntr li{
+    float: left;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+#catalog #ntr li .qs{
+    width: auto;
+    display: none;
+    position: relative;
+}
+#catalog #ntr li .qs li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    font-family: 微软雅黑;
+    z-index: 10;
+    background-color: #c3dfe8 ;
+}
+#catalog ul li a{
+    font-size: 15px;
+}
+#catalog #ntr a:link,a:visited{
+    text-decoration:none;
+    font-family:微软雅黑;
+    color:black;
+}
+#catalog #ntr a:hover{
+    text-decoration:none;
+    color: #42b3fb;
+}
+#catalog #ntr ul li a:link,a:visited{
+    text-decoration:none;
+    font-family:微软雅黑;
+    color:black;
+}
+#catalog #ntr ul li a:hover{
+    text-decoration:none;
+    color: #42b3fb;
+}
+
+#Sdirection{
+    position: relative;
+    top: 60px;
+    font-family:微软雅黑;
+    color: darkgray;
+}
+
+#scenicIntro{
+    position: relative;
+    top: 55px;
+    width: 100%;
+}
+#scenicIntro #picture{
+    margin: 10px 45px 20px 15px;
+    float: left;
+}
+#scenicIntro #picture img{
+    width: 350px;
+    height: 210px;
+}
+#scenicIntro #name h1{
+    font-family:微软雅黑;
+    margin-right: 15px;
+    display: inline;
+}
+#scenicIntro #name img{
+
+    width: 30px;
+    height: 30px;
+    display: inline;
+}
+#scenicIntro #content{
+
+
+}
+#scenicIntro #content p{
+    font-family:微软雅黑;
+}
+
+.line{
+    float: left;
+    width: 100%;
+    height: 2px;
+    background-color: #42b3fb;
+}

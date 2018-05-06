@@ -1,0 +1,93 @@
+#HIntro{
+    position: relative;
+    top: 60px;
+    width: 90%;
+    left: 5%;
+}
+#HIntro #title h1{
+    font-family: 微软雅黑;
+    display: inline
+}
+#HIntro #title .effect4{
+    margin: 5px 10px ;
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+#HIntro #title .effect1{
+    position: relative;
+    top: 10px;
+}
+#HIntro #title .effect1 p{
+    width: auto;
+    font-family: 微软雅黑;
+    display: inline;
+    margin:0px 20px 0px 0px;
+}
+
+#direction .effect2 p{
+    position: relative;
+    float: left;
+    top: 20px;
+    width: auto;
+    height: auto;
+    font-size: 120%;
+    font-family: 微软雅黑;
+    display: inline;
+    margin-right: 40px;
+}
+#direction a{
+    text-decoration: none;
+}
+#direction a:link,a:visited{
+    color: black;
+}
+#direction a:hover{
+    color: #42b3fb;
+}
+
+#map{
+    position: relative;
+    top: 10px;
+}
+#map #picture{
+    width: 65%;
+    height: 400px;
+    margin: 10px 0px;
+    float: left;
+}
+#map #picture .effect3{
+    width: 100%;
+    height: 400px;
+}
+#map #Smap {
+    float: right;
+    width:30%;
+    height: 190px;
+    background-color: #42b3fb;
+    margin: 10px 0px;
+}
+#map #atla{
+    float: right;
+    width:30%;
+    height: 190px;
+    background-color: #42b3fb;
+    margin: 5px 0px;
+}
+
+#MIntro{
+    position: relative;
+    top: 700px;
+    width: 100%;
+    height: 200px;
+    background-color: #42b3fb;
+}
+
+.line{
+    position: relative;
+    top: 90px;
+    float: left;
+    width: 100%;
+    height: 2px;
+    background-color: darkgray;
+}

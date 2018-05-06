@@ -1,0 +1,51 @@
+#alert_box{
+	position:absolute;
+	top:210px;
+	left:483px;
+	width:400px;
+	height:240px;
+	border-radius:10px;
+	background-color:rgba(95,95,95,0.95);
+}
+
+#alert_box_title{
+	position:relative;
+	left:5px;
+	width:390px;
+	height:35px;
+	border-radius:10px;
+	font-size:18px;
+	font-family:myFont;
+	line-height:38px;
+	color:white;
+}
+
+#exit_icon{
+	float:right;
+	position:relative;
+	top:8px;
+	width:35px;
+	height:35px;
+	border-radius:10px;
+}
+
+#exit_icon input{
+	outline:none;	
+}
+
+#exit_icon input:hover{
+	opacity:0.5;
+}
+
+#alert_box_content{
+	position:relative;
+	color:white;
+	top:5px;
+	left:17px;
+	width:370px;
+	height:180px;
+	border-radius:10px;
+	font-size:17px;
+	font-family:myFont;
+	overflow:auto;
+}

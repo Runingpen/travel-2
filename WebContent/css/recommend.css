@@ -1,0 +1,80 @@
+﻿
+#like p{                                  /*题目样式*/
+    font-size: 120%;
+    font-family: 微软雅黑;
+}
+
+#like img{
+    width: 400px;
+    height: 200px;
+}
+#hot p{                                  /*题目样式*/
+    font-size: 120%;
+    font-family: 微软雅黑;
+}
+
+#hot img{
+    width: 400px;
+    height: 200px;
+}
+
+#like {                                      /*模块位置*/
+    position: relative;
+    top: 10px;
+}
+
+#like a{
+    font-family: 微软雅黑;
+    text-decoration: none;
+    float:left;
+}
+
+#like a:link {
+    color: black;
+}
+#like a:visited{
+    color: black;
+}
+#like a:hover{
+    color: #42b3fb;
+}
+
+#hot {                                         /*模块位置*/
+    position: relative;
+    top: 20px;
+}
+#hot a{
+    font-family: 微软雅黑;
+    text-decoration: none;
+    float: right;
+}
+#hot a:link {
+    color: black;
+}
+#hot a:visited{
+    color: black;
+}
+#hot a:hover{
+    color: #42b3fb;
+}
+
+.suibian{
+    width: 415px;
+    height: 26px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.posi{
+    background-color: white;
+    opacity: 0.6;
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    font-family:微软雅黑;
+}

@@ -1,0 +1,45 @@
+#personal {                                     /*个人信息页大头像样式*/
+    position:absolute;
+    top: 140px;
+    left: 150px;
+    float: left;
+    width: 175px;
+    height: 300px;
+}
+#personal div{
+    text-align: center;
+}
+
+
+#personal2 {                                    /*个人信息页信息栏位置*/
+    position: relative;
+    float: left;
+    top: 110px;
+    left: 460px;
+}
+#personal2 #adc tr td{                        /*表格间距*/
+    font-family: 微软雅黑;
+    font-size: 120%;
+    padding: 10px;
+    margin: 10px;
+}
+#personal2 #adc tr td input{                 /*输入框样式*/
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-color: #42b3fb;
+}
+#personal2 #adc tr td .mm{                      /*提交按钮样式*/
+    position: absolute;
+    left: 290px;
+    width:80px;
+    height:40px;
+    border: solid;
+    border-color:#42b3fb;
+    background-color: #42b3fb;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}

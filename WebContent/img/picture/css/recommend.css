@@ -1,0 +1,56 @@
+
+.ticpot{                                  /*题目样式*/
+    position: relative;
+    top: 10px;
+    width: auto;
+    height: auto;
+    font-size: 120%;
+    font-family: 微软雅黑;
+}
+.picture ul li{                                 /*图片样式*/
+    display: inline;
+    margin: 10px 1%;
+}
+.picture img{
+    width: 30%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#like {                                      /*模块位置*/
+    position: relative;
+    top: 90px;
+}
+#like a{
+    font-family: 微软雅黑;
+    text-decoration: none;
+    float: right;
+}
+#like a:link {
+    color: black;
+}
+#like a:visited{
+    color: black;
+}
+#like a:hover{
+    color: #42b3fb;
+}
+
+#hot {                                         /*模块位置*/
+    position: relative;
+    top: 150px;
+}
+#hot a{
+    font-family: 微软雅黑;
+    text-decoration: none;
+    float: right;
+}
+#hot a:link {
+    color: black;
+}
+#hot a:visited{
+    color: black;
+}
+#hot a:hover{
+    color: #42b3fb;
+}

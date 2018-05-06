@@ -1,0 +1,30 @@
+#d3_menu{
+	opacity:0.8;
+}
+#d3_menu ul{
+	display:inline-block;
+	margin:0px;
+	padding:5px 8px;
+	border-radius:5px;
+	background-color:rgba(142,142,142,1);
+}
+
+#d3_menu ul li{
+	position:relative;
+	list-style:none;
+	font-size:17px;
+	font-family:myFont;
+	color:white;
+}
+
+#d3_menu ul li a{
+	text-decoration:none;
+}
+
+#d3_menu ul li a:hover{
+	position:relative;
+	list-style:none;
+	font-size:17px;
+	font-family:myFont;
+	color:black;
+}

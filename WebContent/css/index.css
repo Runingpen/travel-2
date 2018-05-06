@@ -1,0 +1,320 @@
+/*景点*/
+#littlerecommend{
+    display: none;
+}
+/*景点*/
+/*搜索框*/
+#input{
+    border-radius: 10px;
+    width: 130px;
+    height: 25px;
+    background-image: url("../img/icon/放大镜.png");
+    background-repeat: no-repeat;
+    padding-left:20px;
+
+}
+/*搜索框*/
+/*开始搜索*/
+#button{
+    position: relative;
+    border: none;
+    top: 30px;
+    left: 70px;
+    background-color: #3A9BFC;
+    border-radius: 20px;
+    width: 125px;
+    height: 55px;
+    font-size: 19px;
+    color:white;
+}
+/*开始搜索*/
+
+/*下方图片布局*/
+#under{
+    position: relative;
+    top: 30px;
+}
+#left #picture{
+    position:relative;
+    /*top: 820px;*/
+    width: 450px;
+    height: 610px;
+    left: 15px;
+}
+#right{
+    position:absolute;
+    left:500px;
+    top: 0px;
+}
+#right #picture1{
+    width: 793px;
+    height: 300px;
+}
+#right #picture2{
+    position: relative;
+    top: 10px;
+    width: 793px;
+    height: 300px;
+}
+
+#underwordzhuhai{
+    position:absolute;
+    font-size:30px;
+    top: 480px;
+    color: white;
+    font-weight: bold;
+    left: 20px;
+}
+#underwordzhuhai2{
+    position: absolute;
+    /*font-weight: bold;*/
+    font-size: 16px;
+    left:20px;
+    opacity: 1;
+    color: white;
+    list-style-type: none;
+    top: 600px;
+}
+
+#underwordaomen{
+    position:absolute;
+    font-size: 30px;
+    top: 500px;
+    color: white;
+    font-weight: bold;
+}
+
+#underwordaomen2{
+    position: absolute;
+    /*font-weight: bold;*/
+    font-size: 16px;
+    left:0px;
+    top: 520px;
+    opacity: 0;
+    color: white;
+    list-style-type: none;
+}
+#underwordzhongshan{
+    position: absolute;
+    font-size: 30px;
+    top: 200px;
+    color: white;
+    font-weight: bold;
+}
+#underwordzhongshan2{
+    position: absolute;
+    /*font-weight: bold;*/
+    font-size: 16px;
+    color: white;
+    list-style-type: none;
+    top: 300px;
+    opacity: 0;
+}
+#zhuhaiblackbox{
+    position: absolute;
+    background-color: black;
+    width: 450px;
+    height: 610px;
+    top: 0px;
+    left: 20px;
+    opacity: 0;
+    left: 15px;
+}
+#zhongshanblackbox{
+    position: absolute;
+    background-color: black;
+    opacity: 0;
+    width: 793px;
+    height: 300px;
+    top: 0px;
+}
+
+#aomenblackbox{
+    position: absolute;
+    background-color: black;
+    opacity: 0;
+    width: 793px;
+    height: 300px;
+    top: 310px;
+}
+/*下方图片布局*/
+
+/*飞艇左边部分*/
+#airshipleft{
+    position: absolute;
+    top: 315px;
+    left: 130px;
+}
+#airshipleft li{
+    list-style-type: none;
+}
+
+#word{
+    text-decoration:none;
+    font-family:微软雅黑;
+    font-weight: bold;
+    color:white;
+    font-size: 30px;
+}
+/*飞艇左边部分*/
+
+#header {                                    /*d导航栏背景样式*/
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    /*background-color: black;*/
+}
+#firstpicture{
+    position: relative;
+    width:100%;
+    height:626px;
+    left: 0px;
+}
+#header #smalllogo{                         /*导航栏logo样式*/
+    float:left;
+    position:absolute;
+    width:129.7px;
+    height:60px;
+    top:0px;
+    left:0px;
+    margin:0px;
+    padding:0px;
+
+    /*background-color: white;*/
+}
+#header #nav{                               /*导航栏字体div样式*/
+    position: absolute;
+    float: left;
+    height:60px;
+    top:19px;
+    left:75px;
+}
+#header #nav ul li{                         /*导航栏字体样式*/
+    position: relative;
+    float:left;
+    list-style:none;
+    padding:0px 30px;
+    text-align:center;
+    font-size: 20px;
+}
+#header #nav ul li2{
+    position: relative;
+    float:left;
+    list-style:none;
+    padding:0px 0px;
+    text-align:center;
+    font-size: 20px;
+}
+#header #nav ul li a:link,a:visited{
+    text-decoration:none;
+    font-family:微软雅黑;
+    font-weight: bold;
+    color:black;
+}
+#header #nav ul li a:hover {                /*字体特效*/
+    text-decoration: none;
+    color: #42b3fb;
+}
+#header #opk{                                 /*导航栏登录框div样式*/
+    position: relative;
+    float: right;
+    height: 80px;
+    right: 0px;
+    top: 0px;
+}
+#header #opk .img{                          /*导航栏登录框头像样式*/
+    position: relative;
+    top: 8px;
+    float: left;
+    list-style:none;
+    padding:0px 10px;
+}
+#header #opk ul li{                         /*导航栏登录框字体样式*/
+    position: relative;
+    top: 19px;
+    float:left;
+    list-style:none;
+    padding:0px 5px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#header #opk ul li a:link,a:visited{
+    text-decoration:none;
+    font-family:微软雅黑;
+    font-weight: blod;
+    color:black;
+}
+#header #opk ul li a:hover{                 /*导航栏登录框字体特效*/
+    text-decoration:none;
+    color: #42b3fb;
+}
+
+
+
+.cls{
+    clear:both;
+}
+
+.curBg {                                        /*导航栏随动特效样式*/
+    background: #42b3fb;
+    height:3px;
+    position:absolute;
+    bottom:0;
+    width:92px;
+    top:38px;
+    left:130px;
+}
+
+
+
+#Footer{                                           /* 网页脚注*/
+    background-color: #c3dfe8;
+    position: relative;
+    top:50px;
+    left:0px;
+    width:100%;
+    height:30px;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    font-family:微软雅黑;
+    font-size:10px;
+}
+/* jssor slider loading skin double-tail-spin css */
+
+.jssorl-004-double-tail-spin img {
+    animation-name: jssorl-004-double-tail-spin;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-004-double-tail-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.jssorb052 .i {position:absolute;cursor:pointer;}
+.jssorb052 .i .b {fill:#000;fill-opacity:0.3;stroke:#fff;stroke-width:400;stroke-miterlimit:10;stroke-opacity:0.7;}
+.jssorb052 .i:hover .b {fill-opacity:.7;}
+.jssorb052 .iav .b {fill-opacity: 1;}
+.jssorb052 .i.idn {opacity:.3;}
+
+.jssora053 {display:block;position:absolute;cursor:pointer;}
+.jssora053 .a {fill:none;stroke:#fff;stroke-width:640;stroke-miterlimit:10;}
+.jssora053:hover {opacity:.8;}
+.jssora053.jssora053dn {opacity:.5;}
+.jssora053.jssora053ds {opacity:.3;pointer-events:none;}
+

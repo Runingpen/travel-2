@@ -1,0 +1,39 @@
+#hint{                                              /*提示窗口位置*/
+    position: relative;
+    top: 140px;
+    text-align: center;
+    width: 700px;
+    height: 350px;
+    margin:0 auto;
+}
+#div5{                                                /*半透明底色样式*/
+    width:700px;
+    height: 350px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    opacity: 0.6;
+    z-index: 10;
+}
+#div6{                                         /*文字样式*/
+    position: absolute;
+    float: left;
+    top:25px;
+    left: 25px;
+    margin:0 auto;
+    z-index: 11;
+    display: inline-block;
+}
+#div6 input{                                  /*跳转按钮样式*/
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 100%;
+    font-family: 微软雅黑;
+    color: white;
+}

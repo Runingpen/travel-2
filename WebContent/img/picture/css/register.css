@@ -1,0 +1,33 @@
+#register{                                    /*注册窗口大小和位置*/
+    position: relative;
+    top: 70px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    margin:0 auto;
+}
+#div3{                                            /*半透明底色样式*/
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    opacity: 0.6;
+    z-index: 10;
+}
+#div4{                                             /*输入框样式*/
+    position: absolute;
+    top:25px;
+    left: 25px;
+    margin:0 auto;
+    z-index: 11;
+}
+#register table tr td input{                       /*提交按钮样式*/
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: none;
+}
